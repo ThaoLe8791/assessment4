@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get Fortune</button>
+
+    <h2>Part 1: Lucky Number</h2>
+    <label for="maxRangeInput">Enter max range:</label>
+    <input type="number" id="maxRangeInput" value="100">
+    <button id="luckyNumberButton">Get Lucky Number</button>
+    
+    <h2>Part 2: Random Baby Name</h2>
+    <label for="gender">Select gender:</label>
+    <select id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    
+    <button id="babyNameButton">Get Baby Name</button>
+    
+    <div id="babyNameDisplay" style="color: blue"></div>
+
+    
+    <h2>Part 3: Current Time</h2>
+    <label for="timeZoneInput">Enter time zone:</label>
+    <input type="text" id="timeZoneInput" value="CST">
+    <button id="currentTimeButton">Get Current Time</button>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,43 @@
+1) What is the difference between a client and a server? In the HTTP protocol,
+which one of these sends requests, and which one sends responses?
+    In the HTTP protocol:
+
+Client Sends Requests: The client sends requests to servers. It might request a web page, a file, or some other resource.
+
+Server Sends Responses: The server receives these requests and then sends back responses to the client. 
+These responses usually contain the requested information, like a web page, a file, or data from a database.
+
+So, to simplify, in HTTP, the main difference between client vs server is:
+
+The client asks (sends requests).
+The server answers (sends responses).
+
+-------------------
+2) What do we mean by a "route" on a server?
+
+In the context of web development and APIs, a "route" refers to a specific URL endpoint that a server can respond to. A route is a mapping between 
+a URL endpoint and a specific function or handler in a web application or API. When a client makes 
+a request to a particular URL endpoint, the web server uses the corresponding route to determine 
+which code should handle the request and generate a response.
+
+-------------------
+3) The steps below de describe what happens when a user goes to
+a URL like https://facebook.com/home in their browser, but are out of order.
+Put them in the correct order from start to finish.
+
+- The server runs a function associated to the route /home, which produces some HTML
+- The user's browser displays the HTML it recieved
+- The server sends that HTML back to the user's browser as a response
+- The user's browser sends a request to a Facebook server for the route /home
+- The User types in https://facebook.com/home and hits enter
+
+Answer:
+The User types in https://facebook.com/home and hits enter.
+The user's browser sends a request to a Facebook server for the route /home.
+The server runs a function associated with the route /home, which produces some HTML.
+The server sends that HTML back to the user's browser as a response.
+The user's browser displays the HTML it received.
+
+
+
+
